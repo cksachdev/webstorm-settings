@@ -1,8 +1,0 @@
-<templateSet group="Everywhere">
-  <template name="fname" value="$FILENAME$" description="Inserts current filename" toReformat="false" toShortenFQNames="true">
-    <variable name="FILENAME" expression="fileName()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-</templateSet>
